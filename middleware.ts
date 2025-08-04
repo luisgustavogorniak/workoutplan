@@ -25,7 +25,7 @@ export default clerkMiddleware(async (auth, req) => {
   const { userId } = userAuth;
   const { pathname, origin } = req.nextUrl;
 
-  console.log("Middleware info: ", userId, pathname, origin)
+  console.log(`Middleware info: user id: ${userId} pathname: ${pathname} origin: ${origin}`)
 
   // If it's the check-subscription route, skip logic to avoid loops
   if (pathname === "/api/check-subscription") {

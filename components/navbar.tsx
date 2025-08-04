@@ -14,7 +14,7 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/">
           <Image
-            className="text-xl font-bold text-emerald-700 cursor-pointer"
+            className="text-xl font-bold text-green-700 cursor-pointer"
             src="/logo.png"
             width={60}
             height={60}
@@ -45,7 +45,7 @@ export default function NavBar() {
               <div className="w-10 h-10 bg-gray-300 rounded-full"></div>
             )}
             <SignOutButton>
-              <button className="ml-4 px-4 py-2 bg-[#015D24] text-white rounded hover:bg-emerald-600 transition cursor-pointer">
+              <button className="ml-4 px-4 py-2 bg-[#015D24] text-white rounded hover:bg-green-600 transition cursor-pointer">
                 Sign Out
               </button>
             </SignOutButton>
@@ -65,7 +65,7 @@ export default function NavBar() {
               Subscribe
             </Link>
             <Link
-              className="px-4 py-2 bg-[#015D24] text-white rounded hover:bg-emerald-600 transition"
+              className="px-4 py-2 bg-[#015D24] text-white rounded hover:bg-green-600 transition"
               href="/sign-up"
             >
               Sign Up

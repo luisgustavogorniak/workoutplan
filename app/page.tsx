@@ -9,14 +9,14 @@ export default function HomePage() {
   return (
     <div className="px-4 py-8 sm:py-12 lg:py-16 max-w-7xl mx-auto">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#015D24] to-emerald-600 text-white rounded-lg mb-12 p-8 text-center">
+      <section className="bg-gradient-to-r from-[#015D24] to-green-600 text-white rounded-lg mb-12 p-8 text-center">
         <h1 className="text-4xl font-bold mb-4">Personalized AI Workout Plans</h1>
         <p className="text-xl mb-6">
           Let our AI do the planning. You focus on workout!
         </p>
         <Link
           href="/sign-up"
-          className="inline-block bg-white text-emerald-500 font-medium px-5 py-3 rounded hover:bg-gray-100 transition-colors"
+          className="inline-block bg-white text-green-500 font-medium px-5 py-3 rounded hover:bg-gray-100 transition-colors"
         >
           Get Started
         </Link>
@@ -33,7 +33,7 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row justify-center items-start space-y-8 md:space-y-0 md:space-x-8">
           {/* Step 1 */}
           <div className="flex flex-col items-center">
-            <div className="bg-emerald-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
+            <div className="bg-green-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
               {/* Icon for Step 1 */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function HomePage() {
 
           {/* Step 2 */}
           <div className="flex flex-col items-center">
-            <div className="bg-emerald-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
+            <div className="bg-green-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
               {/* Icon for Step 2 */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@ export default function HomePage() {
 
           {/* Step 3 */}
           <div className="flex flex-col items-center">
-            <div className="bg-emerald-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
+            <div className="bg-green-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
               {/* Icon for Step 3 */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

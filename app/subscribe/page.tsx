@@ -92,6 +92,7 @@ export default function Subscribe() {
 
   return (
     <div className="px-4 py-8 sm:py-12 lg:py-16">
+      <Toaster position="top-right" />
       <div>
         <h2 className="text-3xl font-bold text-center mt-12 sm:text-5xl tracking-tight">
           Pricing
@@ -145,7 +146,7 @@ export default function Subscribe() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="flex-shrink-0 w-6 h-6 text-emerald-500"
+                      className="flex-shrink-0 w-6 h-6 text-green-500"
                     >
                       <polyline points="20 6 9 17 4 12" />
                     </svg>
@@ -158,8 +159,8 @@ export default function Subscribe() {
             <button
               className={`${
                 plan.interval === "month"
-                  ? "bg-[#015D24] text-white  hover:bg-emerald-700 "
-                  : "bg-emerald-300 text-emerald-900  hover:bg-emerald-200 "
+                  ? "bg-[#015D24] text-white  hover:bg-green-700 "
+                  : "bg-green-300 text-green-900  hover:bg-green-200 "
               }  mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium disabled:bg-gray-400 disabled:cursor-not-allowed cursor-pointer`}
               onClick={() => handleSubscribe(plan.interval)}
               disabled={mutation.isPending}
