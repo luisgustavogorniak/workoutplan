@@ -93,7 +93,7 @@ const handleCheckoutSessionCompleted = async (
 
 // Handler for failed invoice payments
 const handleInvoicePaymentFailed = async (invoice: Stripe.Invoice) => {
-    const subscriptionId = invoice.subscription as string;
+    const subscriptionId = (invoice as any).subscription as string;
     console.log(
         "Handling invoice.payment_failed for subscription:",
         subscriptionId
